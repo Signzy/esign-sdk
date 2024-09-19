@@ -7,3 +7,6 @@ install:
 
   - FILE3="-Dfile=cvl_esign.aar"
   - mvn install:install-file $FILE3 -DgroupId=com.lb.sdktest -DartifactId=cdsl -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+
+    - FILE4="-Dfile=ecsrdlibrary_1.0.171109-release.aar"
+  - mvn install:install-file $FILE4 -DgroupId=com.lb.sdktest -DartifactId=cdsl-helper -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
