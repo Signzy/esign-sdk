@@ -1,3 +1,9 @@
 install: 
-- FILE="-Dfile=protean-esign-v-3.2.aar" 
-- mvn install:install-file $FILE -DgroupId=com.lb.sdktest -DartifactId=test -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE1="-Dfile=protean-esign-v-3.2.aar"
+  - mvn install:install-file $FILE1 -DgroupId=com.lb.sdktest -DartifactId=nsdl -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+
+  - FILE2="-Dfile=eSignLibrary-2.0.1_V3.aar"
+  - mvn install:install-file $FILE2 -DgroupId=com.lb.sdktest -DartifactId=vsign -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+
+  - FILE3="-Dfile=cvl-esign.aar"
+  - mvn install:install-file $FILE3 -DgroupId=com.lb.sdktest -DartifactId=cdsl -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
