@@ -29,7 +29,7 @@
       </dependency>
       <dependency>
             <groupId>com.lb.sdktest</groupId>
-            <artifactId>cdsl-helper</artifactId>
+            <artifactId>cdslhelper</artifactId>
             <version>1.0</version>
             <type>aar</type>
       </dependency>
