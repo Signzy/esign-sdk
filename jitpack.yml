@@ -10,3 +10,6 @@ install:
 
   - FILE4="-Dfile=ecsrdlibrary_1.0.171109-release.aar"
   - mvn install:install-file $FILE4 -DgroupId=com.lb.sdktest -DartifactId=cdslhelper -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  
+  - FILE5="-Dfile=protean-esign_uat-v-3.8.aar"
+  - mvn install:install-file $FILE5 -DgroupId=com.lb.sdktest -DartifactId=nsdl -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true

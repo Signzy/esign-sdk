@@ -17,6 +17,12 @@
       </dependency>
       <dependency>
             <groupId>com.lb.sdktest</groupId>
+            <artifactId>nsdlUat</artifactId>
+            <version>1.0</version>
+            <type>aar</type>
+      </dependency>
+      <dependency>
+            <groupId>com.lb.sdktest</groupId>
             <artifactId>vsign</artifactId>
             <version>1.0</version>
             <type>aar</type>
