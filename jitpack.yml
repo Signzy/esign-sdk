@@ -12,4 +12,4 @@ install:
   - mvn install:install-file $FILE4 -DgroupId=com.lb.sdktest -DartifactId=cdslhelper -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
   
   - FILE5="-Dfile=protean-esign_uat-v-3.8.aar"
-  - mvn install:install-file $FILE5 -DgroupId=com.lb.sdktest -DartifactId=nsdl -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - mvn install:install-file $FILE5 -DgroupId=com.lb.sdktest -DartifactId=nsdlUat -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
