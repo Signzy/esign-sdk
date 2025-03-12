@@ -39,5 +39,17 @@
             <version>1.0</version>
             <type>aar</type>
       </dependency>
+      <dependency>
+            <groupId>com.lb.sdktest</groupId>
+            <artifactId>esignsdkUat</artifactId>
+            <version>1.0</version>
+            <type>aar</type>
+      </dependency>
+      <dependency>
+            <groupId>com.lb.sdktest</groupId>
+            <artifactId>esignsdkProduction</artifactId>
+            <version>1.0</version>
+            <type>aar</type>
+      </dependency>
    </dependencies>
 </project>
