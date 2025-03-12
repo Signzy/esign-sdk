@@ -14,8 +14,8 @@ install:
   - FILE5="-Dfile=protean-esign_uat-v-3.8.aar"
   - mvn install:install-file $FILE5 -DgroupId=com.lb.sdktest -DartifactId=nsdlUat -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
 
-  - FILE5="-Dfile=esignsdk-uat.aar"
-  - mvn install:install-file $FILE5 -DgroupId=com.lb.sdktest -DartifactId=esignsdkUat -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE6="-Dfile=esignsdk-uat.aar"
+  - mvn install:install-file $FILE6 -DgroupId=com.lb.sdktest -DartifactId=esignsdkUat -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
 
-  - FILE5="-Dfile=esignsdk-production.aar"
-  - mvn install:install-file $FILE5 -DgroupId=com.lb.sdktest -DartifactId=esignsdkProduction -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
+  - FILE7="-Dfile=esignsdk-production.aar"
+  - mvn install:install-file $FILE7 -DgroupId=com.lb.sdktest -DartifactId=esignsdkProduction -Dversion=1.0 -Dpackaging=aar -DgeneratePom=true
